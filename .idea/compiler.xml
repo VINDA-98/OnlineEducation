@@ -20,7 +20,7 @@
     <bytecodeTargetLevel>
       <module name="common" target="1.8" />
       <module name="common_utils" target="1.8" />
-      <module name="edu_parent" target="1.8" />
+      <module name="Github_Education" target="1.8" />
       <module name="service" target="1.8" />
       <module name="service_base" target="1.8" />
       <module name="service_cms" target="1.8" />
@@ -33,9 +33,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Github_Education" options="-parameters" />
       <module name="common" options="-parameters" />
       <module name="common_utils" options="-parameters" />
-      <module name="edu_parent" options="-parameters" />
       <module name="service" options="-parameters" />
       <module name="service_base" options="-parameters" />
       <module name="service_cms" options="-parameters" />
