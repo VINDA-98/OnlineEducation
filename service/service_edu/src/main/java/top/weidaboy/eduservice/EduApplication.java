@@ -10,6 +10,7 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan(basePackages = {"top.weidaboy"})
 @EnableDiscoveryClient //nacos注册
 @EnableFeignClients //开启调用服务功能
+//继续加油 韦达！
 public class EduApplication {
     public static void main(String[] args) {
         SpringApplication.run(EduApplication.class,args);
